@@ -1,0 +1,55 @@
+---
+import "../styles/global.css"
+---
+<div>
+    <h1>Your One Stop Solution for All Things Tools & Hardware</h1>
+    <p>Whitfield hardware offers a wide selection of professional-grade tools, hardware, and materials for home
+        improvement,
+        construction, maintenance, and more. Shop our inventory today!</p>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2>Large Inventory</h2>
+            <img width="375px" height="200px" src="/images/hero-inventory.png" alt="inventory">
+            <p>We stock thousands of products from all the top brands. Find exactly what you need for any job, big or
+                small. Our huge warehouse means we always have items in stock and ready to ship.</p>
+            <a href="/inventory">Shop Inventory >></a>
+        </div>
+        <div class="flex-item">
+            <h2>Everyday Low Prices</h2>
+            <img width="375px" height="200px" src="/images/hero-deals.png" alt="deals">
+            <p>As a leading hardware supplier, we're able to offer exceptional prices across our entire product catalog.
+                Take advantage of our wholesale discounts today.</p>
+            <a href="/deals">See Deals >></a>
+        </div>
+    </div>
+</div>
+
+<style>
+    div {
+        color: white;
+        background-color: #e36910;
+    }
+
+    .top {
+        padding: 200px 0;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .flex-item {
+        flex: 1 1 45%;
+    }
+
+    .flex-item h2 {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+</style>

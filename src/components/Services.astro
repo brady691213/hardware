@@ -1,0 +1,34 @@
+---
+import "../styles/global.css"
+import Service from "./Service.astro";
+---
+<div class="services">
+    <h2>Whitfield Hardware Services</h2>
+    <p>Whitfield hardware offers a wide selection of tools, gardening supplies, hardware accessories available for purchase in-store or online with delivery and assembly options.</p>
+    <div class="grid-container">
+        <div class="grid-item"><Service title="Gardening" text="Wide selection of seeds, plants, soil, fertilizers, pest control, and gardening accessories." /></div>
+        <div class="grid-item"><Service title="Tools" text="Large inventory of hand tools, power tools, air tools from top brands. " /></div>
+        <div class="grid-item"><Service title="Hardware" text="Extensive inventory of nails, screws, bolts, fasteners, adhesives, electrical, plumbing, automotive, and more. " /></div>
+        <div class="grid-item"><Service title="Delivery" text="Products can be delivered to your doorstep at a reasonable fee based on order size and location. " /></div>
+        <div class="grid-item"><Service title="Assembly" text="Qualified technicians available for assembly and installation services on many products. " /></div>
+        <div class="grid-item"><Service title="Support" text="Friendly and knowledgeable sales associates to answer questions and help with selections in-store or over the phone. " /></div>
+    </div>
+</div>
+
+<style>
+    div.services {
+        background-color: white;
+        color: black;
+    }
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grid-item {
+        flex: 1 0 33.33%; /* Each column occupies 33.33% of the container width */
+        height: 100px; /* Adjust height as needed */
+        border: 1px solid #ccc; /* Optional: Add borders for visualization */
+        box-sizing: border-box; /* Ensure borders are included in the width */
+    }    
+</style>
