@@ -24,6 +24,7 @@
     "@astrojs/check": "^0.5.10",
     "@astrojs/tailwind": "^5.1.0",
     "@lloydjatkinson/astro-snipcart": "^0.3.0",
+    "@tailwindcss/typography": "^0.5.12",
     "astro": "^4.5.16",
     "rxjs": "^7.8.1",
     "tslib": "^2.6.2",
