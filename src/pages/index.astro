@@ -5,8 +5,8 @@ import Hero from "../components/content/Hero.astro";
 import Services from "../components/Services.astro";
 import Testimonial from "../components/Testimonial.astro";
 import TopNav from "../components/markup/TopRow.astro";
-import orangeColor from "../consts/business"
 import { SnipcartSetup } from '@lloydjatkinson/astro-snipcart/astro';
+const {config} = "../config/business"
 ---
 
 <html lang="en">
@@ -15,7 +15,7 @@ import { SnipcartSetup } from '@lloydjatkinson/astro-snipcart/astro';
     <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
     <meta name="viewport" content="width=device-width"/>
     <meta name="generator" content={Astro.generator}/>
-    <title>Whitfield Hardware</title>
+    <title>{config.businessName}</title>
     <SnipcartSetup />
 </head>
 <body class="prose content-center mx-[10rem]">

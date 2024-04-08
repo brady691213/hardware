@@ -1,6 +1,6 @@
-const businessName = "Whitfield Hardware"
-const contactNumber = "+27 11 123-4567"
-const contactEmail = "whitfield@hardware.com"
-const logoAlt = "Logo Ipsum"
-
-const orangeColor = "#F18333"
+export default {
+    businessName: "Whitfield Hardware",
+    contactNumber : "+27 11 123-4567",
+    contactEmail : "whitfield@hardware.com",
+    logoAlt : "Whitfield Hardware Logo"
+}
