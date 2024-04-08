@@ -3,18 +3,40 @@ import Logo from "../markup/Logo.astro";
 import ShopNowButton from "../ui/ShopNowButton.astro";
 ---
 
-<div class="flex flex-row max-w-full">
-    <Logo />
-    <div class="flex-1 flex">
-        <ul class="flex flex-row gap-5 mx-[20rem]">
-            <li><a href="/">Home</a></li>
-            <li><a href="/shop/">Shop</a></li>
-            <li><a href="/services/">Services</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/blog/">Blog</a></li>
-        </ul>
-    </div>
-    <ShopNowButton />
-</div>
+<Logo/>
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/shop/">Shop</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/blog/">Blog</a></li>
+    </ul>
+</nav>
+<ShopNowButton/>
 
+<style>
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    li {
+        margin-right: 25px;
+    }
+</style>

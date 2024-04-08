@@ -4,9 +4,9 @@ import Footer from "../components/Footer.astro";
 import Hero from "../components/content/Hero.astro";
 import Services from "../components/Services.astro";
 import Testimonial from "../components/Testimonial.astro";
-import TopNav from "../components/markup/TopRow.astro";
-import { SnipcartSetup } from '@lloydjatkinson/astro-snipcart/astro';
-const {config} = "../config/business"
+import TopRow from "../components/markup/TopRow.astro";
+import {SnipcartSetup} from '@lloydjatkinson/astro-snipcart/astro';
+import config from "../config/business"
 ---
 
 <html lang="en">
@@ -18,9 +18,9 @@ const {config} = "../config/business"
     <title>{config.businessName}</title>
     <SnipcartSetup />
 </head>
-<body class="prose content-center mx-[10rem]">
-<TopNav />
-<Hero class="" />
+<body class="flex-row bg-[#E36910] text-[#FFFFFFCC]">
+<TopRow />
+<!--<Hero class="" />-->
 <!--<Services/>-->
 <!--<Testimonial />-->
 <!--<Navigation/>-->
@@ -30,7 +30,14 @@ const {config} = "../config/business"
 
 <style>
     body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
         background-color: #E36910;
-        color: white;
+        color: #FFFFFFCC;
+        font-size: 16px;
+        //line-height: 1.5;
+        font-family: Noto Sans,sans-serif;        
     }
 </style>
