@@ -28,7 +28,6 @@ a {
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
-    text-decoration: underline dotted;
 }
 b,
 strong {
@@ -1038,9 +1037,13 @@ svg:not(:root).svg-inline--fa {
     transform: scale(-1, 1);
 }
 .fa-flip-vertical {
-    -webkit-transform: scale(1, -1);
     transform: scale(1, -1);
 }
+
+.fa-flip-vertical {
+    -webkit-transform: scale(1, -1);
+}
+
 .fa-flip-both,
 .fa-flip-horizontal.fa-flip-vertical {
     -webkit-transform: scale(-1, -1);
@@ -1101,22 +1104,16 @@ svg:not(:root).svg-inline--fa {
     width: auto;
 }
 .svg-inline--fa .fa-primary {
-    fill: var(--fa-primary-color, currentColor);
     opacity: 1;
-    opacity: var(--fa-primary-opacity, 1);
 }
 .svg-inline--fa .fa-secondary {
-    fill: var(--fa-secondary-color, currentColor);
     opacity: 0.4;
-    opacity: var(--fa-secondary-opacity, 0.4);
 }
 .svg-inline--fa.fa-swap-opacity .fa-primary {
     opacity: 0.4;
-    opacity: var(--fa-secondary-opacity, 0.4);
 }
 .svg-inline--fa.fa-swap-opacity .fa-secondary {
     opacity: 1;
-    opacity: var(--fa-primary-opacity, 1);
 }
 .svg-inline--fa mask .fa-primary,
 .svg-inline--fa mask .fa-secondary {
@@ -2031,14 +2028,7 @@ a {
 
     margin-right: 5px;
 }
-.dorik-links-o4hjz816 .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-o4hjz816 .icon_pdjztdpf {
-    font-size: null;
-    color: null;
-}
+
 
 
 
@@ -2202,18 +2192,6 @@ a {
 
     margin-right: 5px;
 }
-.dorik-links-tr97kmju .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-tr97kmju .icon_91p0orf3 {
-    font-size: null;
-    color: null;
-}
-
-
-
-
 
 
 /*Container*/
@@ -2374,13 +2352,6 @@ a {
     margin-right: 5px;
 }
 .dorik-links-4mobtzjp .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-4mobtzjp .icon_pdjztdpf {
-    font-size: null;
-    color: null;
-}
 
 
 
@@ -2546,19 +2517,6 @@ a {
 
     margin-right: 5px;
 }
-.dorik-links-eozj3lhp .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-eozj3lhp .icon_pdjztdpf {
-    font-size: null;
-    color: null;
-}
-
-
-
-
-
 
 /*Container*/
 .dorik-container-8ag3lbld {
@@ -2720,17 +2678,6 @@ a {
 
     margin-right: 16px;
 }
-.dorik-links-lyyhpz1e .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-lyyhpz1e .icon_krurbnze {
-    font-size: null;
-    color: null;
-}
-
-
-
 
 
 
@@ -3295,11 +3242,6 @@ a {
     flex: 1 0;
 }
 
-.dorik-nav-th4c403y .dropdown-icon-gap {
-    display: inline-block;
-    width: null;
-}
-
 .dorik-nav-th4c403y .dorik-nav--dropdown {
     padding: 0;
     background: #ffffff;
@@ -3510,22 +3452,6 @@ a {
 .dorik-nav-67rr8oxx .dorik-navbar--brand img {
     width: 100%;
 }
-/* Toggle Button*/
-
-.dorik-nav-67rr8oxx .dorik-navbar--toggle {
-    border: 1px solid var(--color-7);
-    padding-left: 12px;
-    padding-right: 12px;
-    color: var(--color-102);
-
-}
-
-@media all and (max-width: 1023px) {
-    .dorik-nav-67rr8oxx .dorik-navbar--toggle {
-        font-size: 20px;
-
-    }
-}
 
 /* Links */
 
@@ -3648,10 +3574,7 @@ a {
     flex: 1 0;
 }
 
-.dorik-nav-67rr8oxx .dropdown-icon-gap {
-    display: inline-block;
-    width: ;
-}
+
 
 .dorik-nav-67rr8oxx .dorik-nav--dropdown {
     padding: 0;
@@ -3696,16 +3619,7 @@ a {
     text-decoration: none;
     flex-direction: row;
 }
-.dorik-nav-67rr8oxx .dropdown-item a {
-    line-height: 26px;
-    padding-top: 16px;
-    color: var(--color-6);
 
-}
-.dorik-nav-67rr8oxx .dropdown-item a:hover {
-    color: var(--color-7);
-
-}
 
 
 
@@ -3891,22 +3805,7 @@ a {
 .dorik-nav-67rr8oxx .dorik-navbar--brand img {
     width: 100%;
 }
-/* Toggle Button*/
 
-.dorik-nav-67rr8oxx .dorik-navbar--toggle {
-    border: 1px solid var(--color-7);
-    padding-left: 12px;
-    padding-right: 12px;
-    color: var(--color-102);
-
-}
-
-@media all and (max-width: 1023px) {
-    .dorik-nav-67rr8oxx .dorik-navbar--toggle {
-        font-size: 20px;
-
-    }
-}
 
 /* Links */
 
@@ -4029,11 +3928,6 @@ a {
     flex: 1 0;
 }
 
-.dorik-nav-67rr8oxx .dropdown-icon-gap {
-    display: inline-block;
-    width: ;
-}
-
 .dorik-nav-67rr8oxx .dorik-nav--dropdown {
     padding: 0;
     background: #ffffff;
@@ -4076,16 +3970,6 @@ a {
     align-items: center;
     text-decoration: none;
     flex-direction: row;
-}
-.dorik-nav-67rr8oxx .dropdown-item a {
-    line-height: 26px;
-    padding-top: 16px;
-    color: var(--color-6);
-
-}
-.dorik-nav-67rr8oxx .dropdown-item a:hover {
-    color: var(--color-7);
-
 }
 
 
@@ -5346,7 +5230,7 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--color-103);
-    background-image: url(landscape);  background-size: cover;
+
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -5363,17 +5247,7 @@ a {
 
     }
 
-}@media screen and (max-width: 767px) {
-    .dorik-section-ee6jfpi8 {
-        background-size: contain;
-        background-position: 100% 100%;
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-    }
-
 }
-
 
 
 
@@ -7042,14 +6916,6 @@ a {
 
     margin-right: 5px;
 }
-.dorik-links-o4hjz816 .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-o4hjz816 .icon_pdjztdpf {
-    font-size: null;
-    color: null;
-}
 
 
 
@@ -7253,14 +7119,6 @@ a {
 
     margin-right: 5px;
 }
-.dorik-links-tr97kmju .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-tr97kmju .icon_91p0orf3 {
-    font-size: null;
-    color: null;
-}
 
 
 
@@ -7463,14 +7321,6 @@ a {
 .dorik-links-4mobtzjp .dorik-list--icon {
 
     margin-right: 5px;
-}
-.dorik-links-4mobtzjp .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-4mobtzjp .icon_pdjztdpf {
-    font-size: null;
-    color: null;
 }
 
 
@@ -7677,15 +7527,6 @@ a {
 
     margin-right: 5px;
 }
-.dorik-links-eozj3lhp .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-eozj3lhp .icon_pdjztdpf {
-    font-size: null;
-    color: null;
-}
-
 
 
 
@@ -7890,14 +7731,6 @@ a {
     font-size: 20px;
 
     margin-right: 16px;
-}
-.dorik-links-lyyhpz1e .icon_6bb0och6 {
-    font-size: null;
-    color: null;
-}
-.dorik-links-lyyhpz1e .icon_krurbnze {
-    font-size: null;
-    color: null;
 }
 
 
@@ -8340,8 +8173,4 @@ a {
     }
 
 }
-.dorik-text-dwf9bf8j {
-
-}
-	
 
