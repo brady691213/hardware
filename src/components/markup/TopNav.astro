@@ -1,24 +1,27 @@
 ---
-import Logo from "../layout/Logo.astro";
+import Logo from "../markup/Logo.astro";
 import ShopNowButton from "../ui/ShopNowButton.astro";
 ---
 
-<Logo />
-<nav class="flex" style="background-color: #F18333">
-    <ul class="flex flex-col gap-10">
-        <li><a href="/">Home</a></li>
-        <li><a href="/shop/">Shop</a></li>
-        <li><a href="/services/">Services</a></li>
-        <li><a href="/about/">About Us</a></li>
-        <li><a href="/contact/">Contact Us</a></li>
-        <li><a href="/blog/">Our Blog</a></li>
-    </ul>
-</nav>
-<ShopNowButton />
+<div class="flex flex-row max-w-full">
+    <Logo />
+    <div>
+        <ul class="flex-1 flex flex-row gap-5 mx-[20rem]">
+            <li><a href="/">Home</a></li>
+            <li><a href="/shop/">Shop</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/blog/">Blog</a></li>
+        </ul>
+    </div>
+    <ShopNowButton />
+</div>
+
 
 <style>
-    nav {
-        background-color: #E36910;
+    div {
+        background-color: #F18333;
         color: white;
     }
 </style>

@@ -1,10 +1,10 @@
 ---
-import Navigation from "../components/layout/TopNav.astro"
+import Navigation from "../components/markup/TopNav.astro"
 import Footer from "../components/Footer.astro";
 import Hero from "../components/content/Hero.astro";
 import Services from "../components/Services.astro";
 import Testimonial from "../components/Testimonial.astro";
-import TopNav from "../components/layout/TopNav.astro";
+import TopNav from "../components/markup/TopNav.astro";
 ---
 
 <html lang="en">
@@ -15,11 +15,19 @@ import TopNav from "../components/layout/TopNav.astro";
     <meta name="generator" content={Astro.generator}/>
     <title>Whitfield Hardware</title>
 </head>
-<body>
-<TopNav>
-<Services />
+<body class="content-center mx-[10rem]">
+<TopNav />
+<!--<Hero />-->
+<!--<Services/>-->
 <!--<Testimonial />-->
 <!--<Navigation/>-->
 <!--<Footer/>-->
 </body>
 </html>
+
+<style>
+    body {
+        background-color: #F18333;
+        color: white;
+    }
+</style>
