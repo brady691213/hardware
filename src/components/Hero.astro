@@ -1,5 +1,6 @@
 ---
 import NavBar from "./NavBar.astro";
+import ShopNow from "./ShopNow.astro";
 const props = Astro.props
 ---
 
@@ -20,10 +21,8 @@ const props = Astro.props
                             supplies, electrical items and more, {props.businessName} has
                             everything you need to get the job done right.
                         </div>
-                        <div class="dorik-button-kzyg9z2v-wrapper  ">
-                            <button class="dorik-btn dorik-button-kzyg9z2v  ">
-                                Shop Now
-                            </button>
+                        <div class="dorik-navbar dorik-nav-navbar">
+                            <ShopNow text="Shop Now" />
                         </div>
                     </div>
                 </div>
