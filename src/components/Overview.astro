@@ -1,5 +1,5 @@
 ---
-const {businessName} = Astro.props
+const props = Astro.props
 ---
 
 <section class="dorik-section dorik-section-dd2zbmv0 ">
@@ -8,13 +8,13 @@ const {businessName} = Astro.props
             <div class="dorik-text dorik-text-4wlz0kjf ">Well renowned</div>
             <div class="dorik-wrapper dorik-heading-ec6yxnjs-wrapper ">
                 <h2 class="dorik-heading dorik-heading-ec6yxnjs ">
-                    <span>{businessName} overview</span>
+                    <span>{props.businessName} overview</span>
                 </h2>
             </div>
         </div>
         <div class="dorik-container-k2shvrwl  ">
             <div class="dorik-text dorik-text-llizmg5f ">
-                {businessName} was founded in <b>1965</b> in the town of
+                {props.businessName} was founded in <b>1965</b> in the town of
                 Greenwood. With over <i>50 years</i> of experience, we are the most
                 trusted hardware store in the area, having won local business awards
                 in <b>2005</b>, <b>2012</b>, and <b>2021</b>.

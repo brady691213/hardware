@@ -1,8 +1,11 @@
 ---
 import Hero from "../components/Hero.astro"
 import config from "../config/business"
-import "../styles/green/dorik-green.css"
 import Overview from "../components/Overview.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+
+import "../styles/orange/dorik-orange.css"
 ---
 
 <html lang="en">
@@ -16,6 +19,8 @@ import Overview from "../components/Overview.astro";
 <body>
 <Hero businessName = {config.businessName} />
 <Overview businessName = {config.businessName} />
+<Contact businessName = {config.businessName} />
+<Footer />
 </body>
 </html>
 

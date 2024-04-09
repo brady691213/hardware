@@ -1,9 +1,0 @@
-:root {
-    --theme-background: #F18333;
-    font-family: lato, sans-serif;
-}
-
--orange-background {
-    color: #F18333;
-    background-color: var(--theme-background);
-}

@@ -1883,7 +1883,6 @@ code {
     --color-205: #1C261E;
     --color-301: #ffffff32;
     --color-302: #42424233;
-
 }
 
 body {
@@ -3419,7 +3418,7 @@ a {
 
 
 /*hero*/
-.dorik-section-y8r2sd49 {
+.dorik-section-hero {
 
     padding-bottom: 100px;
     background-color: var(--color-1);
@@ -3427,7 +3426,7 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
-    .dorik-section-y8r2sd49 {
+    .dorik-section-hero {
 
         padding-bottom: 60px;
 
@@ -3436,7 +3435,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .dorik-section-y8r2sd49 {
+    .dorik-section-hero {
         padding-top: 0px;
         padding-bottom: 40px;
 
