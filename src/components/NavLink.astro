@@ -1,0 +1,10 @@
+---
+const {text, url} = Astro.props
+---
+
+<li class="">
+    <a href={url ? url : "/"}
+       class="dorik-nav--link home"><span
+            class="dorik-nav--link-icon"></span><span
+            class="dorik-nav--link-text">{text ? text : "Missing Link"}</span></a>
+</li>
