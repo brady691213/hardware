@@ -3684,7 +3684,7 @@ a {
 
 
 /*Row*/
-.dorik-row-80t0r7ru {
+.dorik-row-navbar {
     --nav-padding: 15px;
 }
 
@@ -3694,7 +3694,7 @@ a {
 
 
 /*Column*/
-.dorik-column-o49s1wvm {
+.dorik-column-navbar-brand {
 
 }
 
@@ -4019,7 +4019,7 @@ a {
 
 
 /*Row*/
-.dorik-row-80t0r7ru {
+.dorik-row-navbar {
     --nav-padding: 15px;
 }
 
@@ -4029,7 +4029,7 @@ a {
 
 
 /*Column*/
-.dorik-column-o49s1wvm {
+.dorik-column-navbar-brand {
 
 }
 
@@ -4311,20 +4311,20 @@ a {
 }
 
 
-:where([class*="dorik-nav-67rr8oxx-wrapper"]:not([class*="dorik-nav-67rr8oxx-wrapper"] *)) {
+:where([class*="dorik-nav-wrapper"]:not([class*="dorik-nav-wrapper"] *)) {
     margin-top: 10px;
 
 }
 
 @media all and (max-width: 1023px) {
-    :where([class*="dorik-nav-67rr8oxx-wrapper"]:not([class*="dorik-nav-67rr8oxx-wrapper"] *)) {
+    :where([class*="dorik-nav-wrapper"]:not([class*="dorik-nav-wrapper"] *)) {
         margin-top: 0px;
 
     }
 }
 
 @media all and (max-width: 767px) {
-    :where([class*="dorik-nav-67rr8oxx-wrapper"]:not([class*="dorik-nav-67rr8oxx-wrapper"] *)) {
+    :where([class*="dorik-nav-wrapper"]:not([class*="dorik-nav-wrapper"] *)) {
         margin-top: 0px;
 
     }
