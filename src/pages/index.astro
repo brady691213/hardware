@@ -1,7 +1,8 @@
 ---
-import TopSection from "../components/TopSection.astro"
+import Hero from "../components/Hero.astro"
 import config from "../config/business"
-import "../../public/styles/dorik-green.css"
+import "../styles/green/dorik-green.css"
+import Overview from "../components/Overview.astro";
 ---
 
 <html lang="en">
@@ -13,7 +14,8 @@ import "../../public/styles/dorik-green.css"
     <title>{config.businessName}</title>
 </head>
 <body>
-<TopSection />
+<Hero businessName = {config.businessName} />
+<Overview businessName = {config.businessName} />
 </body>
 </html>
 
